@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="qwed.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea;
+            background-image: url('foon.gif'); /* Path to your GIF background */
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+        header {
+            background: #bb0ce7; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            font-size: 36px; 
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center; 
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #bb0ce7; 
+            font-size: 18px; 
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #007c80;
+        }
+        .container {
+            flex: 1; 
+            width: 80%;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center; 
+        }
+        .gallery-group {
+            margin-bottom: 30px;
+        }
+        .caption {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .gallery {
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 15px; /* Отступы между изображениями */
+        }
+        .gallery img {
+            width: 300px; /* Ширина изображений */
+            height: auto; 
+            border-radius: 10px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s; /* Эффект увеличения при наведении */
+        }
+        .gallery img:hover {
+            transform: scale(1.05); /* Увеличение изображения при наведении */
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #bb0ce7; 
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="title">Галерея</h1>
+</header>
+
+<nav>
+    <a href="index.html">Главное меню</a>
+    <a href="resume.html">Резюме</a>
+    <a href="hobbies.html">Хобби</a>
+</nav>
+
+<section class="container">
+    <section class="gallery-group">
+        <h2 class="caption">Моя Жизнь</h2>
+        <section class="gallery">
+            <img src="zxc.jpg" alt="Фото 1">
+            <img src="qas.jpg" alt="Фото 2">
+        </section>
+    </section>
+
+    <section class="gallery-group">
+        <h2 class="caption">Времяпровождение</h2>
+        <section class="gallery">
+            <img src="zal.webp" alt="Фото 3">
+            <img src="pk.webp" alt="Фото 4">
+            <img src="obs.webp" alt="Фото 5">
+        </section>
+    </section>
+
+    <section class="gallery-group">
+        <h2 class="caption">Родной город Нолинск</h2>
+        <section class="gallery">
+            <img src="Nol.jpg" alt="Фото 6">
+            <img src="Nol2.jpg" alt="Фото 7">
+            <img src="voen.webp" alt="фото 8">
+        </section>
+    </section>
+</section>
+
+<footer>
+    <p>&copy; 2025 Семёновых Илья Николаевич</p>
+</footer>
+
+</body>
+</html>

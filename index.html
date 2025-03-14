@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="qwed.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главное меню</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+            background-color: #eaeaea; /* Fallback color */
+            background-image: url('foon.gif'); /* Path to your GIF background */
+            background-size: cover; /* Cover the entire background */
+            background-repeat: no-repeat;
+        }
+        header {
+            background: #bb0ce7; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            font-size: 36px; 
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center; 
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #bb0ce7; 
+            font-size: 18px; 
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #bb0ce7;
+        }
+        .container {
+            flex: 1; 
+            width: 80%;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+        }
+        .description {
+            color: #555; 
+            font-size: 18px; 
+            text-align: left; 
+        }
+        .photo {
+            margin-top: 20px; 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 10px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #bb0ce7; 
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="title">Главное меню</h1>
+</header>
+
+<nav>
+    <a href="resume.html">Резюме</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="hobbies.html">Хобби</a>
+</nav>
+
+<section class="container">
+    <h2>Добро пожаловать!</h2>
+    <p class="description">Здрасте! Зовут меня Семёновых Илья. Я учусь на  1 курсе Вятского государственного университета по направлению “Инфокоммуникационные технологии и системы связи” на Факультете автоматики и вычислительной техники.</p>
+    <p class="description">Я из Нолинска. Это маленький город, находящийся в Кировской области, известный своим пряником и лимонадом</p>
+    <p class="description">Здесь вы найдёте всю предоставленную информацию.</p>
+    <img src="lk.webp" alt="Фото на главном меню" class="photo">
+</section>
+
+<footer>
+    <p>&copy; 2025 Семёновых Илья Николаевич</p>
+</footer>
+
+</body>
+</html>

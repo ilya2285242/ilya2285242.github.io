@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" href="qwed.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea; 
+            background-image: url('foon.gif'); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+        header {
+            background: #bb0ce7; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            font-size: 36px; 
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center; 
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #bb0ce7; 
+            font-size: 18px; 
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #007c80;
+        }
+        .container {
+            flex: 1; 
+            width: 80%;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #bb0ce7;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #bb0ce7; 
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="title">Резюме</h1>
+</header>
+
+<nav>
+    <a href="index.html">Главное меню</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="hobbies.html">Хобби</a>
+</nav>
+
+<section class="container">
+    <table>
+        <tr>
+            <th>Параметр</th>
+            <th>Информация</th>
+        </tr>
+        <tr>
+            <td>ФИО</td>
+            <td>Семёновых Илья Николаевич</td>
+        </tr>
+        <tr>
+            <td>Дата рождения</td>
+            <td>11 сентября 2006 года</td>
+        </tr>
+        <tr>
+            <td>Телефон</td>
+            <td>+7 (912) 362-86-30</td>
+        </tr>
+        <tr>
+            <td>Образование</td>
+            <td>КОГОБУ СШ с УИОП г. Нолинск. Среднее общее.</td>
+        </tr>
+        <tr>
+            <td>Навыки</td>
+            <td>HTML, CSS, Python, управление автомобилем</td>
+        </tr>
+        <tr>
+            <td>Языки</td>
+            <td>Русский (родной), Английский (частично)</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    <p>&copy; 2025 Семёновых Илья Николаевич</p>
+</footer>
+
+</body>
+</html>
